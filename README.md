@@ -1,54 +1,37 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://github.com/brehen/scuffed-drdropin/blob/main/static/gatsby.png">
+    <img alt="Gatsby" src="https://github.com/brehen/scuffed-drdropin/blob/main/static/gatsby.png" width="60" />
   </a>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+Scuffed dr dropin case.
 
-1.  **Create a Gatsby site.**
+Case text:
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Programming Case 2021
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+In this task you’ll be consuming an endpoint from the Dr.Dropin staging API and present the opening hours of the clinics in a certain way.
 
-2.  **Start developing.**
+You can use whatever frontend framework you prefer.
 
-    Navigate into your new site’s directory and start it up.
+### Task
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Consume the endpoint https://staging-core.api.drdropin.no/v1/clinics and present a list of clinics with its respective opening hours. The clinic name should be displayed for each clinic, and opening hours displayed by day, chronologically. If the isOpen parameter in the data is set to false, the opening hours for that day should be ‘Closed’. If a clinic is open 24-hours, the opening hours should be 'All day'. If two or more consecutive days in a week have the same opening hours, they should be concatenated and displayed in a single row.
 
-3.  **Open the code and start customizing!**
+An example presentation:
 
-    Your site is now running at http://localhost:8000!
+#### Grünerløkka
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Monday: 8-22
 
-4.  **Learn more**
+Tuesday-Thursday: 10-22
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Friday: 10-20
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Saturday: 10-18
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Sunday: Closed
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+The focus of this task is not on creating the ‘prettiest’ presentation/UI but rather on the implementation of the required logic.
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Good luck!
