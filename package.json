@@ -1,9 +1,9 @@
 {
   "name": "dr-dropin",
+  "description": "Leser noen egentlig dette?",
   "version": "1.0.0",
+  "author": "@brehen",
   "private": true,
-  "description": "Dr Dropin",
-  "author": "mazoth",
   "keywords": [
     "gatsby"
   ],
@@ -15,13 +15,25 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@types/node": "^15.0.1",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "@types/styled-components": "^5.1.9",
     "babel-plugin-styled-components": "^1.12.0",
+    "fp-ts": "^2.10.4",
     "gatsby": "^3.3.1",
     "gatsby-plugin-react-helmet": "^4.4.0",
     "gatsby-plugin-styled-components": "^4.4.0",
+    "gatsby-plugin-typescript": "^3.4.0",
+    "gatsby-source-custom-api": "^2.1.4",
+    "isomorphic-fetch": "^3.0.0",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   }
 }
