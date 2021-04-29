@@ -8,6 +8,13 @@ Scuffed dr dropin case.
 
 Link to live netlify site based on this repo: https://scuffed-drdropin.netlify.app/
 
+How to setup and run locally:
+
+- Clone repo
+- cd repo
+- npm install
+- gatsby develop
+
 Case text:
 
 ## Programming Case 2021
