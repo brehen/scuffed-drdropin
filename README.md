@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/brehen/scuffed-drdropin/blob/main/static/gatsby.png">
-    <img alt="Gatsby" src="https://github.com/brehen/scuffed-drdropin/blob/main/static/gatsby.png" width="60" />
+    <img alt="Gatsby" src="https://github.com/brehen/scuffed-drdropin/blob/main/static/gatsby.png" width="150" />
   </a>
 </p>
 
